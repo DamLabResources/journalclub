@@ -8,7 +8,7 @@ Welcome to the Computational Journal Club at Drexel University College of Medici
 |------|-------|------|-------|
 |11/16/18| Generating and designing DNA with deep generative models | [Arxiv](https://arxiv.org/abs/1712.06148) | [Will Dampier](slidedecks/2018-11/Killoran-2017.ipynb) | 
 |01/11/19 | Synergizing CRISPR/Cas9 Off-Target Predictions for Ensemble Insights and Practical Applications | [Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30169558) | [Cheng-Han Chung](slidedecks/20190111/Zhang-2018June.ipynb) |
-| TBD | TBD | TBD | Robert Link | 
+| 01/18/19 | Predicting mRNA abundance directly from genomic sequence using deep convolutional neural networks | [BioArxiv](https://www.biorxiv.org/content/biorxiv/early/2018/10/12/416685.full.pdf) |  [Robert Link](slidedecks/2019_01_18_Xpresso/2019_01_18_Xpresso.ipynb) | 
 | TBD | TBD | TBD | Angela Tomita |
 | TBD | TBD | TBD | Brett LaBier | 
 | TBD | TBD | TBD | Debra Klopfenstein | 
@@ -35,3 +35,15 @@ A basic benchmark of prediction ability among classification algorithms and comb
 
 Presented by Cheng-Han Chung. [Slides](slidedecks/20190111/Zhang-2018June.ipynb)
 
+### Xpresso - Predicting mRNA abundance using deep learning
+
+#### Predicting mRNA abundance directly from genomic sequence using deep convolutional neural networks. [BioArxiv](https://www.biorxiv.org/content/biorxiv/early/2018/10/12/416685.full.pdf)
+Vikram Agarwal & Jay Shendure
+
+A convolutional neural network (CNN) designed to predict mRNA steady-state abundance from promoter sequence and mRNA half-life proxy. It explains 59% of the variation in expression for humans and 71% of the expression for mice, more than doubling the performance accuracy of previous models attempting to explain transcription. 
+
+
+
+A convolutional neural network (CNN) designed to predict mRNA steady-state abundance from promoter sequence and mRNA half-life proxy. It explains 59% of the variation in expression for humans and 71% of the expression for mice, more than doubling the performance accuracy of previous models attempting to explain transcription. 
+
+Presented by Robert Link. [Slides](slidedecks/2019_01_18_Xpresso/2019_01_18_Xpresso.ipynb)
