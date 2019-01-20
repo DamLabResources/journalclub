@@ -42,8 +42,4 @@ Vikram Agarwal & Jay Shendure
 
 A convolutional neural network (CNN) designed to predict mRNA steady-state abundance from promoter sequence and mRNA half-life proxy. It explains 59% of the variation in expression for humans and 71% of the expression for mice, more than doubling the performance accuracy of previous models attempting to explain transcription. 
 
-
-
-A convolutional neural network (CNN) designed to predict mRNA steady-state abundance from promoter sequence and mRNA half-life proxy. It explains 59% of the variation in expression for humans and 71% of the expression for mice, more than doubling the performance accuracy of previous models attempting to explain transcription. 
-
 Presented by Robert Link. [Slides](slidedecks/2019_01_18_Xpresso/2019_01_18_Xpresso.ipynb)
