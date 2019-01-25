@@ -7,11 +7,11 @@ Welcome to the Computational Journal Club at Drexel University College of Medici
 | Date | Paper | Link | Presenter |
 |------|-------|------|-------|
 |11/16/18| Generating and designing DNA with deep generative models | [Arxiv](https://arxiv.org/abs/1712.06148) | [Will Dampier](slidedecks/2018-11/Killoran-2017.ipynb) | 
-|01/11/19 | Synergizing CRISPR/Cas9 Off-Target Predictions for Ensemble Insights and Practical Applications | [Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30169558) | [Cheng-Han Chung](slidedecks/20190111/Zhang-2018June.ipynb) |
-| 01/18/19 | Predicting mRNA abundance directly from genomic sequence using deep convolutional neural networks | [BioArxiv](https://www.biorxiv.org/content/biorxiv/early/2018/10/12/416685.full.pdf) |  [Robert Link](slidedecks/2019_01_18_Xpresso/2019_01_18_Xpresso.ipynb) | 
+|01/11/19| Synergizing CRISPR/Cas9 Off-Target Predictions for Ensemble Insights and Practical Applications | [Pubmed](https://www.ncbi.nlm.nih.gov/pubmed/30169558) | [Cheng-Han Chung](slidedecks/20190111/Zhang-2018June.ipynb) |
+| 01/18/19| Predicting mRNA abundance directly from genomic sequence using deep convolutional neural networks | [BioArxiv](https://www.biorxiv.org/content/biorxiv/early/2018/10/12/416685.full.pdf) |  [Robert Link](slidedecks/2019_01_18_Xpresso/2019_01_18_Xpresso.ipynb) | 
 | TBD | TBD | TBD | Angela Tomita |
 | TBD | TBD | TBD | Brett LaBier | 
-| TBD | TBD | TBD | Debra Klopfenstein | 
+|02/02/19|GOATOOLS: A Python library for Gene Ontology analyses|[Scientific Reports](https://www.nature.com/articles/s41598-018-28948-z.pdf)| Debra Klopfenstein | 
 | TBD | Privacy-preserving generative deep neural networks support clinical data sharing | [BioArxiv](https://www.biorxiv.org/content/early/2017/11/15/159756) | Jessica Eager | 
 | TBD | TBD | TBD | Will Dampier | 
 
