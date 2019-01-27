@@ -58,4 +58,4 @@ Gene Ontology (GO) is used to describe gene products in a computationally acessi
 
 Presented by DV Klopfenstein. [Slides](slidedecks/2019_02_01_GOEA/Klopfenstein-2018.ipynb)
 
-Copyright, 2018-2019 Dampier Lab. All rights reserved.
+Copyright 2018-2019, Dampier Lab. All rights reserved.
