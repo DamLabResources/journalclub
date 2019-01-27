@@ -2,7 +2,7 @@
 
 Welcome to the Computational Journal Club at Drexel University College of Medicine.
 
-## Upcomming
+## Upcoming
 
 | Date | Paper | Link | Presenter |
 |------|-------|------|-------|
@@ -16,6 +16,11 @@ Welcome to the Computational Journal Club at Drexel University College of Medici
 | TBD | TBD | TBD | Will Dampier | 
 
 ## Archive
+
+* [Generative Models](#generative-models)
+* [CRISPR/Cas9 off-target predicting models](#crisprcas9-off-target-predicting-models)
+* [Xpresso - Predicting mRNA abundance using deep learning](#xpresso---predicting-mrna-abundance-using-deep-learning)
+* [Gene Ontology](#gene-ontology)
 
 ### Generative Models
 
@@ -43,3 +48,14 @@ Vikram Agarwal & Jay Shendure
 A convolutional neural network (CNN) designed to predict mRNA steady-state abundance from promoter sequence and mRNA half-life proxy. It explains 59% of the variation in expression for humans and 71% of the expression for mice, more than doubling the performance accuracy of previous models attempting to explain transcription. 
 
 Presented by Robert Link. [Slides](slidedecks/2019_01_18_Xpresso/2019_01_18_Xpresso.ipynb)
+
+### Gene Ontology
+
+#### GOATOOLS: A Python library for Gene Ontology analyses. [Scientific Reports](https://www.nature.com/articles/s41598-018-28948-z.pdf)
+D. V. Klopfenstein, Liangsheng Zhang, Brent S. Pedersen, Fidel Ramírez, Alex Warwick Vesztrocy, Aurélien Naldi, Christopher J. Mungall, Jeffrey M. Yunes, Olga Botvinnik, Mark Weigel, Will Dampier, Christophe Dessimoz, Patrick Flick, Haibao Tang
+
+Gene Ontology (GO) is used to describe gene products in a computationally acessible manner. This paper describes a Python library and a set of scripts used to query the GO, run enrichment analyses on sets of genes, and describes a novel method for grouping GO terms.
+
+Presented by DV Klopfenstein. [Slides](slidedecks/2019_02_01_GOEA/Klopfenstein-2018.ipynb)
+
+Copyright, 2018-2019 Dampier Lab. All rights reserved.
