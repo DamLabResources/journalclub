@@ -17,10 +17,10 @@ Welcome to the Computational Journal Club at Drexel University College of Medici
 
 ## Archive
 
-* [Generative Models](#generative-models)
-* [CRISPR/Cas9 off-target predicting models](#crisprcas9-off-target-predicting-models)
-* [Xpresso - Predicting mRNA abundance using deep learning](#xpresso---predicting-mrna-abundance-using-deep-learning)
-* [Gene Ontology](#gene-ontology)
+* [**Generative Models**](#generative-models)
+* [**CRISPR/Cas9 off-target predicting models**](#crisprcas9-off-target-predicting-models)
+* [**Xpresso - Predicting mRNA abundance using deep learning**](#xpresso---predicting-mrna-abundance-using-deep-learning)
+* [**Gene Ontology**](#gene-ontology)
 
 ### Generative Models
 
