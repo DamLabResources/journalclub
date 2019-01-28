@@ -52,6 +52,18 @@ A convolutional neural network (CNN) designed to predict mRNA steady-state abund
 
 Presented by Robert Link. [Slides](slidedecks/2019_01_18_Xpresso/2019_01_18_Xpresso.ipynb)
 
+### Embedding - word2vec-based encodings for biological sequences
+
+#### dna2vec: Consistent vector representations of variable-length k-mers.
+Patrick Ng
+
+#### Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics
+Ehsaneddin Asgari, Mohammad R. K. Mofrad
+
+Embeddings are popular in the deep learning community as inputs to models, and these two specific tools are designed for processing and representing dna/protein sequences. The vector arithmetic for dna2vec representations is analogous to nucleotide concatenation using (Spearman = 0.831), and ProtVec protein classification accuracy is 93%.
+
+Presented by Angela Tomita. [Slides](slidedecks/2019_01_25_embedding/embedding.ipynb)
+
 ### Gene Ontology
 
 #### GOATOOLS: A Python library for Gene Ontology analyses. [Scientific Reports](https://www.nature.com/articles/s41598-018-28948-z.pdf)
