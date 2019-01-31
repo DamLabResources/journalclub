@@ -11906,7 +11906,7 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Generating-and-designing-DNA-with-deep-generative-models">Generating and designing DNA with deep generative models<a class="anchor-link" href="#Generating-and-designing-DNA-with-deep-generative-models">&#182;</a></h1><p>Nathan Killoran, Leo J. Lee, Andrew Delong, David Duvenaud, Brendan J. Frey</p>
-<p>Xanadu Quantum Technologies</p>
+<p>University of Toronto &amp; Xanadu Quantum Technologies</p>
 
 </div>
 </div>
@@ -11915,7 +11915,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Why">Why<a class="anchor-link" href="#Why">&#182;</a></h2><p>Generating random DNA is hard because it has an inherent structure with competing interests that is difficult to model mathematically. Eg:</p>
+<h2 id="Why">Why<a class="anchor-link" href="#Why">&#182;</a></h2><p>Generating random DNA is hard because it has an inherent structure with competing interests that are difficult to model mathematically. Eg:</p>
 <ul>
 <li>Codon usage</li>
 <li>Overlapping reading frames</li>
@@ -12388,8 +12388,67 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
 <li>The left figure shows the agreement between the experimental binding data and the predicted scores. There is strong agreement.</li>
-<li>The right figure shows the scores from the optimization runs. There is a clear ability to generate scores above its own training data ... kind of.<ul>
-<li>The generator can create sequences above its own training data; but the predictor can't predict scores outside of its own range. This is a known limitation of virtually all forms of NNs.</li>
+<li>The right figure shows the scores from the optimization runs. There is a clear ability to generate scores above its own training data ... kind of.</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+
+<pre><code>- The generator can create sequences above its own training data; but the predictor can't predict scores outside of its own range. This is a known limitation of virtually all forms of NNs.</code></pre>
+
+</div>
+</div>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h2><p>The authors were able to show that thier architecture has some useful properties:</p>
+<ul>
+<li>Basic properties of DNA can be captured without explicit descritions. <ul>
+<li>$-z_i$ is the complement of $z_i$.</li>
+<li>DNA motifs and splice junctions can be replicated.</li>
+</ul>
+</li>
+<li>The model exhibits useful mathematical properties.<ul>
+<li>Interpolations in latent-space correspond to smooth transitions in sequence space.</li>
+<li>Generators can be hooked head-to-tail with any predictive model to generate simple tools for optimizing literally anything. The predictive model does not have to be a neural network. It can be anything from a pattern matching algorithm to a webservice.</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Things-I-wish-they-did">Things I wish they did<a class="anchor-link" href="#Things-I-wish-they-did">&#182;</a></h3><ul>
+<li>Explore how the model architecture impacts the mapping. Why 5 layers of residual blocks? Why not 2, why not 20? How would you even measure that? I would've liked a little more discussion around those topics.</li>
+<li>In newer GAN literature (possibly coming out <em>after</em> this paper) people have started including a third part to the overall model. A <em>reverse-generator</em>, this maps a sequence to its corresponding position in the latent space. This allows you find where in Z-space a particular sequence of interest is. Then you can find the most optimal sequence <strong>near your own</strong>.</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Things-I-think-we-can-use-this-for">Things I think we can use this for<a class="anchor-link" href="#Things-I-think-we-can-use-this-for">&#182;</a></h3><ul>
+<li>Generate gRNAs! We can collect a large number of gRNAs from across HIV and use those as a library to train a generator. Then use CRSeek and DeepCRISPR to evaluate how effective a gRNA will be at cleaving a sequence and how well it will work across a population.</li>
+<li>Generate seemingly realistic HIV sequences. Can we extend them to full genes? Can we penalize those that include stop codons (defunct viruses)? Can we include a subtype category to condition the output?</li>
+<li>Generate broadly neutralizing antibodies. Although some Googling hasn't really turned up a good database of antibodies ... I can't even figure out how one even describes the sequence an antibody recognizes. I think this is a really fruitful area. Know anyone who needs a project?</li>
+<li>I think there's a cool side project in here:<ul>
+<li>Train the model on Tat sequences incorperating the <em>reverse-generator</em>.</li>
+<li>Hook the GO predictor model we have to the end of the generator ... probably limit the output to a single neuron, like the closest related P-TEFB binding.</li>
+<li>Use optimization to find a collection of sequences to test.</li>
 </ul>
 </li>
 </ul>
