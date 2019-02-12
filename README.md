@@ -7,11 +7,8 @@ Welcome to the Computational Journal Club at Drexel University College of Medici
 | Date | Paper | Link | Presenter |
 |------|-------|------|-------|
 | TBD | TBD | TBD |  |
-| TBD | TBD | TBD |  |
-| TBD | TBD | TBD |  |
 | TBD | Privacy-preserving generative deep neural networks support clinical data sharing | [BioArxiv](https://www.biorxiv.org/content/early/2017/11/15/159756) | Jessica Eager | 
 | TBD | TBD | TBD | Will Dampier | 
-| TBD | TBD | TBD |  |
 | TBD | TBD | TBD |  |
 | TBD | DeepGO: predicting protein functions from sequence and interactions using a deep ontology-aware classifier | [iSCB](https://academic.oup.com/bioinformatics/article/34/4/660/4265461) | Angela Tomita |
 
