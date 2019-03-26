@@ -6,7 +6,7 @@ Welcome to the Computational Journal Club at Drexel University College of Medici
 
 | Date | Title | Link | Presenter |
 |------|-------|------|-------|
-| 03/29/2019 | Deep learning enables accurate clustering a 1 nd batch effect removal in single-cell RNA-seq analysis | [Biorxiv](https://www.biorxiv.org/content/biorxiv/early/2019/01/25/530378.full.pdf) | Robert Link |
+| 03/29/2019 | Deep learning enables accurate clustering and batch effect removal in single-cell RNA-seq analysis | [Biorxiv](https://www.biorxiv.org/content/biorxiv/early/2019/01/25/530378.full.pdf) | Robert Link |
 | 03/01/2019 | Identification and localization of Sea Lion anatomical features using transfer learning |  | Will Dampier | 
 | TBD | TBD | TBD |  |
 | TBD | Privacy-preserving generative deep neural networks support clinical data sharing | [BioArxiv](https://www.biorxiv.org/content/early/2017/11/15/159756) | Jessica Eager | 
